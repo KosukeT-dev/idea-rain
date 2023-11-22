@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#word-container {
+   position: relative;
+   height: 100vh;
+   overflow: hidden;
+}
+body {
+   background-size: cover;
+   background-position: center; 
+   background-attachment: fixed; 
+}
+.word {
+   position: absolute;
+   cursor: pointer;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 24px;
+   color: #606060;
+}
+
+@keyframes fall {
+   0% { top: -50px; }
+   100% { top: 100vh; }
+}
+
